@@ -48,6 +48,10 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
+
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
 </head>
 
 <!-- favicons
@@ -66,20 +70,27 @@
    ================================================== -->
 	<header>
 
-		<div class="container-nav">
-			<nav class="nav">
-				<ul class="menu-principal">
-					<li class="current"><a href="#intro" title="">Início</a></li>
-					<li><a class="smoothscroll" href="#about" title="">Sobre</a></li>
-					<li><a class="smoothscroll" href="#resume" title="">Resumo</a></li>
-					<li><a class="smoothscroll" href="#portfolio" title="">Portfólio</a></li>
-					<li><a class="smoothscroll" href="#contact" title="">Contato</a></li>
-				</ul>
-			</nav>
-		</div>
+		<div class="row">
 
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
+				<div class="logo">
+					<a href="index.html">Menu</a>
+				</div>
 
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Início</a></li>
+						<li><a class="smoothscroll" href="#about" title="">Sobre</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resumo</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfólio</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contato</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
 	</header> <!-- /header -->
 
 	<!-- intro section
@@ -110,7 +121,7 @@
 		<ul class="intro-social">
 			<li><a href="mailto:diogonsc@yahoo.com.br"><i class="fa fa-envelope"></i></a></li>
 			<li><a href="https://github.com/Diogonsc"><i class="fa fa-github"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/diogo-nascimento-02199879/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/diogonsc/"><i class="fa fa-linkedin"></i></a></li>
 		</ul> <!-- /intro-social -->
 
 	</section> <!-- /intro -->
@@ -134,14 +145,16 @@
 
 						<br class="lead" align="justify">
 
-							Sou um Amante da Tecnologia e a programação me  possibilita criar aplicações que possam ser aproveitadas
-							por terceiros e isso é algo que me contagia bastante, sou movido por uma energia de
-							esperança que acredita que se fizemos algo de útil para o mundo estamos cultivando um mundo
-							melhor, através da tecnologia me sinto capaz de fazer muito mais.<br></br>
-							Ser programador é desafiar-me diariamente e me adaptar a novas possibilidades e isso é
-							motivador, afinal programação é a porta de entrada para o futuro e o futuro é um grande	desafio.
-							E desde então venho estudando e me capacitando para a chegada da minha primeira oportunidade como Desenvolvedor pois sei que
-							só assim com a mão na massa de verdade eu conseguirei aprender muito mais.
+						Sou um Amante da Tecnologia e a programação me possibilita criar aplicações que possam ser
+						aproveitadas
+						por terceiros e isso é algo que me contagia bastante, sou movido por uma energia de
+						esperança que acredita que se fizemos algo de útil para o mundo estamos cultivando um mundo
+						melhor, através da tecnologia me sinto capaz de fazer muito mais.<br></br>
+						Ser programador é desafiar-me diariamente e me adaptar a novas possibilidades e isso é
+						motivador, afinal programação é a porta de entrada para o futuro e o futuro é um grande desafio.
+						E desde então venho estudando e me capacitando para a chegada da minha primeira oportunidade
+						como Desenvolvedor pois sei que
+						só assim com a mão na massa de verdade eu conseguirei aprender muito mais.
 						</p>
 					</div>
 
@@ -228,7 +241,7 @@
 								<strong><i class="fab fa-react icones"></i> React Js</strong>
 							</li>
 							<li>
-								<div class="progress percent40"><span>Básico</span></div>
+								<div class="progress percent65"><span>Básico</span></div>
 								<strong><i class="fab fa-vuejs icones"></i> Vue Js</strong>
 							</li>
 							<li>
@@ -236,7 +249,7 @@
 								<strong><i class="fab fa-html5 icones"></i>HTML 5</strong>
 							</li>
 							<li>
-								<div class="progress percent50"><span>Básico</span></div>
+								<div class="progress percent65"><span>Básico</span></div>
 								<strong><i class="fab fa-css3 icones"></i> CSS 3</strong>
 							</li>
 						</ul>
@@ -299,15 +312,14 @@
 							<h3>
 								<a href="https://www.clicksign.com/"> Função </a>
 							</h3>
-							<p>Atual</p>
+							<p>Desenvolvedor Front-end </p>
 						</div>
 
 						<div class="timeline-content">
-							<h4>Sem experiência comprovada</h4>
+							<h4>QWST</h4>
 							<p>
-								Como pode ver no momento não tenho experiência comprovada na area de desenvolvimento ,
-								mas se me der a chance de poder adquirir a tão sonhada primeira oportunidade, pode ter a
-								certeza que terá uma pessoa extremamente motivada e dando o seu melhor todos os dias.
+								Desenvolver e dar manutenção em aplicações web usando o framework VueJs com QuasarJs com
+								JavaScript/TypeScript .
 							</p>
 						</div>
 
@@ -333,6 +345,31 @@
 
 					<div id="owl-slider-cert" class="owl-carousel certificate-list">
 
+						<!-- Certificate 18 -->
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<img src="https://miro.medium.com/max/1400/1*goSuHxAHqRR8alv_h_3nCw.png" alt="">
+							</div>
+
+							<div class="timeline-header">
+								<h3>
+									<a
+										href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-c54237d1-9bd0-4491-b3c7-bd29de0cb5d5.pdf">Certificado</a>
+								</h3>
+								<p>Outubro, 2021</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>Curso de VueJs (Vue Router & Vuex) </h4>
+								<p>
+									Neste curso aprendi a conficgurar uma aplicação vuejs 2, criar componentes em Vue,
+									integar o Vue Router em uma aplicação vue e aplicar boas práticas de
+									desenvolvimento.
+								</p>
+							</div>
+						</div> <!-- /timeline-block -->
+						<!-- \Certificate 18 -->
 						<!-- Certificate 17 -->
 						<div class="timeline-block">
 
@@ -602,13 +639,12 @@
 							<h3>
 								Bacharelado
 							</h3>
-							<p>Jan, 2020 - Dez, 2023</p>
 						</div>
 
 						<div class="timeline-content">
 							<h4>Sistema da Informação</h4>
 							<p>
-								Estou cursando o 3º perído em Sistema da Informação pela Fundação Educacional Unificada
+								Estou cursando Sistema da Informação pela Fundação Educacional Unificada
 								Campo-Grandense (FEUC).
 							</p>
 						</div>
@@ -650,6 +686,150 @@
 
 				<div id="owl-slider-port" class="owl-carousel portfolio-list">
 
+					<!-- Project 15 -->
+					<div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+
+								<h5>Site Vitrine Jordan Shoes</h5> <br>
+
+								<img src="images/portfolio/jordan.png"
+									alt="National Institute of Diabetes and Digestive and Kidney Diseases">
+								<a href="#modal-16" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Site Vitrine feito com Vuejs usando QuasarJs
+												e JavaScript.</h3>
+
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<!-- modal popups - begin ============================================================= -->
+
+						<div id="modal-16" class="popup-modal slider mfp-hide">
+
+							<div class="media">
+								<img src="images/portfolio/jordan.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Site Jordan Shoes </h4>
+								<p>
+									Neste projeto, utilizei Vuejs, QuasarJs e JavaScript.
+								</p>
+							</div>
+
+							<div class="link-box">
+								<a href="https://site-jordan-shoes-one.vercel.app/#/">Ver Projeto</a>
+								<a href="#" class="popup-modal-dismiss">Fechar</a>
+							</div>
+
+						</div> <!-- /modal -->
+
+						<!-- modal popups - end ============================================================ -->
+
+					</div> <!-- /portfolio-wrapper -->
+					<!-- \Project 15 -->
+					<!-- Project 15 -->
+					<div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+
+								<h5>Site para portifolio</h5> <br>
+
+								<img src="images/portfolio/portifolio.png"
+									alt="National Institute of Diabetes and Digestive and Kidney Diseases">
+								<a href="#modal-15" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Site para portifólio feito com Vuejs usando QuasarJs
+												e JavaScript.</h3>
+
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<!-- modal popups - begin ============================================================= -->
+
+						<div id="modal-15" class="popup-modal slider mfp-hide">
+
+							<div class="media">
+								<img src="images/portfolio/portifolio.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Site portifólio </h4>
+								<p>
+									Neste projeto, utilizei Vuejs, QuasarJs e JavaScript.
+								</p>
+							</div>
+
+							<div class="link-box">
+								<a href="http://desafio-portifolio-09.vercel.app">Ver Projeto</a>
+								<a href="#" class="popup-modal-dismiss">Fechar</a>
+							</div>
+
+						</div> <!-- /modal -->
+
+						<!-- modal popups - end ============================================================ -->
+
+					</div> <!-- /portfolio-wrapper -->
+					<!-- \Project 15 -->
+					<!-- Project 14 -->
+					<div id="folio-wrapper" class="block-1-1 block-mob-full stack">
+
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+
+								<h5>Encurtador de Link</h5> <br>
+
+								<img src="images/portfolio/encurtador-link.png"
+									alt="National Institute of Diabetes and Digestive and Kidney Diseases">
+								<a href="#modal-14" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">Encurtador de link feito com Vuejs usando QuasarJs
+												consumindo a API da Bitly.</h3>
+
+										</div>
+									</div>
+								</a>
+							</div>
+						</div> <!-- /folio-item -->
+
+						<!-- modal popups - begin ============================================================= -->
+
+						<div id="modal-14" class="popup-modal slider mfp-hide">
+
+							<div class="media">
+								<img src="images/portfolio/encurtador-link.png" alt="" />
+							</div>
+
+							<div class="description-box">
+								<h4>Encurtador de Link </h4>
+								<p>
+									Neste projeto, utilizei Vuejs, QuasarJs, JavaScript e API da Bitly.
+								</p>
+							</div>
+
+							<div class="link-box">
+								<a href="https://encurtador-de-links-kappa.vercel.app/#/">Ver Projeto</a>
+								<a href="#" class="popup-modal-dismiss">Fechar</a>
+							</div>
+
+						</div> <!-- /modal -->
+
+						<!-- modal popups - end ============================================================ -->
+
+					</div> <!-- /portfolio-wrapper -->
+					<!-- \Project 14 -->
 					<!-- Project 13 -->
 					<div id="folio-wrapper" class="block-1-1 block-mob-full stack">
 
